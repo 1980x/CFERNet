@@ -11,5 +11,6 @@ GAP stands for global average pooling and LightCNN29 V2 is version 2 of lightcnn
 model. See https://github.com/AlfredXiangWu/LightCNN for details. (Best viewed
 in color).
 
+Confusion plots for in-the-wild datasets using CERN model are shown below:
 ![Confusion plots](images/lightweight_ConfusionPlots.png)
 
