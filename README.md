@@ -1,6 +1,6 @@
 # CFERNet
 
-<strong>Title:</strong> CERN: Compact Facial Expression Recognition Net
+<strong> CERN: Compact Facial Expression Recognition Net</strong> 
 
 ![Proposed framework](images/lightweight_framework.png)
 
@@ -14,3 +14,8 @@ in color).
 Confusion plots for in-the-wild datasets using CERN model are shown below:
 ![Confusion plots](images/lightweight_ConfusionPlots.png)
 
+Contact:
+darshangera@sssihl.edu.in
+
+Acknowledgments:
+We dedicate this work to Bhagawan Sri Sathya Sai Baba, Divine Founder Chancellor of Sri Sathya Sai Institute of Higher Learning, PrasanthiNilyam, A.P., India.
