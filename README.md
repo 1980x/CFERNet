@@ -1,2 +1,2 @@
 # CFERNet
-Lightweight model for facial expression recognition
+CERN: Compact Facial Expression Recognition Net
