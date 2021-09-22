@@ -1,6 +1,6 @@
 '''
 Aum Sri Sai Ram
-Implementation of Mobilenetv2
+Implementation of MobilenetV2
 Ref:  Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. Mobilenetv2: Inverted residuals and linear bottlenecks. CVPR, pages 4510–4520, 2018
 Authors: Darshan Gera and Dr. S. Balasubramanian, SSSIHL
 Date: 20-05-2021

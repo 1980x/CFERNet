@@ -11,7 +11,7 @@ import torch.nn.functional as F
 import os
 import pickle
 
-from thop import profile #uncomment this 
+from thop import profile 
 from thop import clever_format
 from lightcnn_full import LightCNN_29Layers_v2
 

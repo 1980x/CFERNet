@@ -11,8 +11,7 @@ import torch.nn.functional as F
 import os
 import pickle
 
-from thop import profile #uncomment this 
-
+from thop import profile 
 from light_cnn import LightCNN_29Layers_v2
 
 class eca_layer(nn.Module):
