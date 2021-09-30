@@ -1,7 +1,8 @@
 '''
 Aum Sri Sai Ram
-Implementation of ShuffleNet v2
-Ref:  Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, and Jian Sun. Shufflenet: An extremely efficient convolutional neural network for mobile devices. CVPR, pages 6848–6856, 2018.
+Implementation of Customized MobileNet: This model is defined in mobilenet_branches.py. It uses first few layers of MobileNet and then local and global context branches are 
+used along with ECA attention as shown in the Figure 2 in the paper.
+Ref:  Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. Mobilenetv2: Inverted residuals and linear bottlenecks. CVPR, pages 4510–4520, 2018
 Authors: Darshan Gera and Dr. S. Balasubramanian, SSSIHL
 Date: 20-05-2021
 Email: darshangera@sssihl.edu.in
