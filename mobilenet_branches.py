@@ -3,7 +3,7 @@ Aum Sri Sai Ram
 Implementation of Customized MobileNet: It uses first few layers of MobileNet defined in mobilenetv2_archiecture.py and then local and global context branches are used along with ECA attention as shown in the Figure: Pipeline of CERN archiecture.
 Ref:  Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. Mobilenetv2: Inverted residuals and linear bottlenecks. CVPR, pages 4510–4520, 2018
 Authors: Darshan Gera and Dr. S. Balasubramanian, SSSIHL
-Date: 20-05-2021
+Date: 28-09-2021
 Email: darshangera@sssihl.edu.in
 Source: https://github.com/pytorch/vision/blob/main/torchvision/models/mobilenetv2.py
 
