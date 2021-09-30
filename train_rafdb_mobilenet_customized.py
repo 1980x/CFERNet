@@ -202,11 +202,11 @@ def train(train_loader,  basemodel, criterion, optimizer, epoch):
  
         #Region Branch Loss: loss2        
         for j in range(5):
-            if j == 0:
-               loss_ce = criterion(region_preds[:,:,j], target) #region celoss loss from Ist region branch 
-            else:
-               loss_ce += criterion(region_preds[:,:,j], target) #region celoss loss for rest 4 regions from region branch
-       
+                if j == 0:
+                   loss = criterion(region_preds[:,:,j], target) #region celoss loss from Ist global context branch 
+                else:
+                   loss += criterion(region_preds[:,:,j], target) #region celoss loss for rest 4 regions from local context branch
+                   
         loss  = loss_ce 
         overall_loss.update(loss.item(), input1.size(0))
         avg_predictions = torch.mean(region_preds, dim=2)
