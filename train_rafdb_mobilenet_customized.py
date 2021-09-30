@@ -256,9 +256,9 @@ def validate(val_loader,  basemodel, criterion, epoch, scheduler):
             region_preds = basemodel(input1, input2)
             for j in range(5):
                 if j == 0:
-                   loss = criterion(region_preds[:,:,j], target) #region celoss loss from Ist region branch 
+                   loss = criterion(region_preds[:,:,j], target) #region celoss loss from Ist global context branch 
                 else:
-                   loss += criterion(region_preds[:,:,j], target) #region celoss loss for rest 3 regions from region branch
+                   loss += criterion(region_preds[:,:,j], target) #region celoss loss for rest 4 regions from local context branch
             
             overall_loss.update(loss.item(), input1.size(0))
      
