@@ -2,6 +2,8 @@
 
 <strong> CERN: Compact Facial Expression Recognition Net</strong> 
 
+(This paper is under currently review in PR Letters.)
+
 ![Proposed framework](images/lightweight_framework.png)
 
 Figure: Pipeline of CERN Architecture. Input is a gray scale face image. Features from base model (LightCNN29 V2) pass through attention based global context branch as well as spatially partitioned into four local regions which go through
