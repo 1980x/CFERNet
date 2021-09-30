@@ -1,15 +1,11 @@
 """
 Aum Sri Sai Ram
-'''
-Aum Sri Sai Ram
+Implementation of MobilenetV2 required for customized Mobilenetv2
+Ref:  Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. Mobilenetv2: Inverted residuals and linear bottlenecks. CVPR, pages 4510–4520, 2018
 Authors: Darshan Gera and Dr. S. Balasubramanian, SSSIHL
-Date: 20-05-2021
+Date: 28-09-2021
 Email: darshangera@sssihl.edu.in
 Source: https://github.com/pytorch/vision/blob/main/torchvision/models/mobilenetv2.py
-
-Customized Mobilenetv2 for ablation study in CERN
-
-
 """
 
 import torch
