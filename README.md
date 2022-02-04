@@ -2,7 +2,7 @@
 
 <strong> CERN: Compact Facial Expression Recognition Net</strong> 
 
-(This paper is under currently review in PR Letters.)
+(This paper ispublished PR Letters. https://doi.org/10.1016/j.patrec.2022.01.013)
 
 ![Proposed framework](images/lightweight_framework.png)
 
@@ -19,5 +19,10 @@ in color).
 <b>Contact:</b>
 darshangera@sssihl.edu.in
 <br> </br>
+Please cite as:
+Darshan Gera, S. Balasubramanian, Anwesh Jami,CERN: Compact facial expression recognition net, Pattern Recognition Letters, Volume 155, 2022,Pages 9-18,ISSN 0167-8655,
+https://doi.org/10.1016/j.patrec.2022.01.013.
+(https://www.sciencedirect.com/science/article/pii/S0167865522000204)
+
 <b>Acknowledgments:</b>
 We dedicate this work to Bhagawan Sri Sathya Sai Baba, Divine Founder Chancellor of Sri Sathya Sai Institute of Higher Learning, PrasanthiNilyam, A.P., India.
