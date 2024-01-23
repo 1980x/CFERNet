@@ -2,7 +2,7 @@
 
 <strong> CERN: Compact Facial Expression Recognition Net</strong> 
 
-(This paper ispublished PR Letters. https://doi.org/10.1016/j.patrec.2022.01.013)
+(This paper is published in PR Letters. https://doi.org/10.1016/j.patrec.2022.01.013)
 
 ![Proposed framework](images/lightweight_framework.png)
 
